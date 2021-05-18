@@ -1,0 +1,163 @@
+/* Index.vue */
+.el-header{
+    color: #ffffff;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+}
+.el-header .el-menu .el-menu-item{
+    margin-left: 60px;
+    /* 首页menu之间间距 */
+}
+/* 去除点击时的下划线 */
+.el-menu-demo .el-menu-item{
+    border-bottom-color:#0000FF!important;
+}
+.el-footer{
+    color: #ffffff;
+    line-height: 60px;
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.el-aside {
+    text-align: center;
+    line-height: 20px;
+}
+/* 修改侧边栏高度 */
+.el-menu{
+    height: 100%;
+}
+.el-main {
+    color: #333;
+    text-align: center;
+    line-height: 10px;
+}
+/* 兼容不同分辨率，实现网页分布自适应 */
+@media screen and (min-height: 1200px){
+    .el-aside{
+        height: 1500;
+    }
+}
+@media screen and (min-height: 960px) and  (max-height: 1199px){
+    .el-aside{
+        height: 1199;
+    }
+}
+@media screen and (min-height: 768px) and (max-height: 959px)
+{
+    .el-aside{
+        height: 959px;
+    }
+}
+@media screen and (max-height:768px){
+    .el-aside{
+        height: 945px;
+        /* float: left;
+        margin-bottom: -3000px;
+        padding-bottom: 3000px; */
+    }
+}
+
+/* cityList  projectList*/
+.cityList {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.cityList .el-input {
+    width: 200px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #606266;
+}
+.el-table {
+    margin-left:0;
+    text-align:center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.carList .el-table{
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.carImage{
+    width:100px;
+    height:80px;
+    margin-top:10px 
+}
+.editImage{
+    display: block;
+    float: right;
+    margin-top: 35px;
+}
+
+.addCars{
+    margin-left:300px;
+    width:400px
+}
+
+
+.routeList .el-table {
+    margin-left:0;
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.amap-demo {
+    height: 300px;
+}
+
+
+.addRoutes{
+    margin-left:300px;
+    width:400px
+}
+
+/* login style */
+.loginPage {
+    background: url('../../../static/background.png'), no-repeat;
+    height: 671px;
+    width: 1299px;
+  }
+  .imgLogo{
+    width: 150px;
+    height: 50px;
+  }
+  
+  .contain{
+    margin-top: 210px;
+  }
+  .title{ 
+    color: #fff;
+    font-weight: 700;
+    margin-top: 60px;
+    float: left;
+    font-size: 38px;
+    line-height: 1.5;
+    margin-left: 150px;
+  }
+  
+  .login-box{
+    float: right;
+    width: 240px;
+    margin-right: 200px;
+  }
+  
+  .login-title {
+    text-align: center;
+    margin: 0 auto 40px auto;
+    color: #66cd00;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .copyright{
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 580px;
+  } 
